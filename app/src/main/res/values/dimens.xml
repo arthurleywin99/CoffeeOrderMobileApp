@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Size cho chữ-->
+    <dimen name="size14sp">14sp</dimen>
+    <dimen name="size16sp">16sp</dimen>
+    <dimen name="size18sp">18sp</dimen>
+    <dimen name="size20sp">20sp</dimen>
+    <dimen name="size24sp">24sp</dimen>
+    <dimen name="size35sp">35sp</dimen>
+    <dimen name="size45sp">45sp</dimen>
+
+    <!--Size cho thuộc tính layout-->
+    <dimen name="size0dp">0dp</dimen>
+    <dimen name="size1dp">1dp</dimen>
+    <dimen name="size2dp">2dp</dimen>
+    <dimen name="size3dp">3dp</dimen>
+    <dimen name="size5dp">5dp</dimen>
+    <dimen name="size8dp">8dp</dimen>
+    <dimen name="size10dp">10dp</dimen>
+    <dimen name="size12dp">12dp</dimen>
+    <dimen name="size14dp">14dp</dimen>
+    <dimen name="size16dp">16sp</dimen>
+    <dimen name="size20dp">20dp</dimen>
+    <dimen name="size24dp">24dp</dimen>
+    <dimen name="size30dp">30dp</dimen>
+    <dimen name="size32dp">32dp</dimen>
+    <dimen name="size40dp">40dp</dimen>
+    <dimen name="size50dp">50dp</dimen>
+    <dimen name="size60dp">60dp</dimen>
+    <dimen name="size80dp">80dp</dimen>
+    <dimen name="size100dp">100dp</dimen>
+    <dimen name="size150dp">150dp</dimen>
+    <dimen name="size280dp">280dp</dimen>
+</resources>

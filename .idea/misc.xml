@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a0_time_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a10_admin_ic_delete_user.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a6_ic_logout.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a9_admin_menu_drink_ic_edit.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a9_admin_menu_ic_adduser.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a9_admin_menu_ic_change_pass.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a9_admin_menu_ic_delete.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a9_admin_menu_ic_drink.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a9_admin_menu_ic_edit.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a9_admin_menu_ic_report.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/a9_admin_menu_ic_user.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/bg_radius.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/bg_radius_blue.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/bg_radius_green.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/bg_radius_grey.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/bg_radius_red.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/bg_radius_violet.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/bg_radius_yellow.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/g_button_background.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/gradient1.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/ic_favorite_black_24dp.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/ic_increase.xml" value="0.2548245614035088" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/drawable/ic_location_on_black_24dp.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/font/architects_daughter.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/a_test.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_add_user.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_delete_drink.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_delete_user.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_menu.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_menu_drink.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_menu_user.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_new_drink.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_report.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_reset_password.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_update_drink.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/admin_update_user.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/change_password.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/chef_view_details.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/chef_view_order.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/invoice.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/login_password.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout-land/order_complete.xml" value="0.24250440917107582" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a10_admin_add_user.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a10_admin_delete_user.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a10_admin_reset_password.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a10_admin_update_user.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a11_admin_delete_drink.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a11_admin_new_drink.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a11_admin_update_drink.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a12_admin_report.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a1_intro.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a2_login.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a2_login_password.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a2_verity_otp.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a3_order_details.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a3_order_details_item.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a3_order_dialog.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a3_order_dialog_more.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a4_invoice.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a4_invoice_item.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a4_order_complete.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a4_over_view.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a4_over_view_item.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a5_change_password.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a6_user_info.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a7_table_list.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a7_table_list_item.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a8_chef_view_details.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a8_chef_view_details_item.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a8_chef_view_order.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a8_chef_view_order_item.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a9_admin_menu.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a9_admin_menu_drink.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a9_admin_menu_report.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a9_admin_menu_user.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/a_test.xml" value="0.2988679352838745" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_add_user.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_delete_drink.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_delete_user.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_menu.xml" value="0.25" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_menu_drink.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_menu_report.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_menu_user.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_new_drink.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_report.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_reset_password.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_update_drink.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/admin_update_user.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/change_password.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/chef_view_details.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/chef_view_details_item.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/chef_view_order.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/chef_view_order_item.xml" value="0.6067924746672604" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/intro.xml" value="0.25" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/invoice.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/invoice_item.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/login.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/login_password.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/order_complete.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/order_details.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/order_details_item.xml" value="0.264" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/order_dialog.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/order_dialog_more.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/over_view.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/over_view_item.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/table_list.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/table_list_item.xml" value="0.8150943689560214" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/testlayout.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/user_info.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/layout/verity_otp.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/truon/Desktop/DoAnCuoiKyCoffeeOrder/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2548245614035088" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.24250440917107582" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

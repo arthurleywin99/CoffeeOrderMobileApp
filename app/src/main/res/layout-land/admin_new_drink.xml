@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/powder_blue"
+    tools:context=".View.Admin_DrinksConfig.AdminNewDrinks">
+
+    <LinearLayout
+        android:id="@+id/lnForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/size10dp">
+
+        <LinearLayout
+            android:id="@+id/lnImageDrink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imDrink"
+                android:layout_width="@dimen/size80dp"
+                android:layout_height="@dimen/size80dp"
+                android:src="@drawable/background"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:text="@string/DrinkID"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/edDrinkID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginEnd="@dimen/size8dp"
+                android:background="@drawable/g_radius_text"
+                android:paddingStart="@dimen/size5dp"
+                android:enabled="false"
+                tools:ignore="RtlSymmetry"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:text="@string/DrinkNames"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/edDrinkName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginEnd="@dimen/size8dp"
+                android:background="@drawable/g_radius_text"
+                android:paddingStart="@dimen/size5dp"
+                tools:ignore="RtlSymmetry"
+                android:layout_weight="1"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:text="@string/Price"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/edPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginEnd="@dimen/size8dp"
+                android:background="@drawable/g_radius_text"
+                android:paddingStart="@dimen/size5dp"
+                android:inputType="number"
+                tools:ignore="RtlSymmetry"
+                android:layout_weight="1"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/lnForm">
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size8dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:layout_marginEnd="@dimen/size8dp"
+            android:layout_marginBottom="@dimen/size8dp"
+            android:background="@drawable/g_radius_gb_button"
+            android:text="@string/Create"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size8dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:layout_marginEnd="@dimen/size8dp"
+            android:layout_marginBottom="@dimen/size8dp"
+            android:background="@drawable/g_radius_gb_button"
+            android:text="@string/Cancel"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/tomato"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

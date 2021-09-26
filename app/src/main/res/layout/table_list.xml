@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".View.TableList.TableList">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="@dimen/size20dp"
+        app:layout_constraintGuide_percent="0.1"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="@dimen/size20dp"
+        app:layout_constraintGuide_percent="0.15"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="@dimen/size20dp"
+        app:layout_constraintGuide_percent="0.25"
+        />
+
+    <GridView
+        android:id="@+id/gvTable"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size0dp"
+        android:horizontalSpacing="@dimen/size2dp"
+        android:numColumns="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4">
+
+    </GridView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/banner2"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/size0dp"
+        android:layout_height="@dimen/size0dp"
+        android:layout_marginStart="@dimen/size16dp"
+        android:layout_marginEnd="@dimen/size16dp"
+        android:background="@drawable/bg_radius"
+        android:elevation="@dimen/size8dp"
+        android:translationZ="@dimen/size8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="@dimen/size0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size16dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:layout_marginEnd="@dimen/size8dp"
+            android:drawableStart="@drawable/ic_home_black_24dp"
+            android:drawablePadding="@dimen/size0dp"
+            android:paddingStart="@dimen/size60dp"
+            android:text="@string/app_name"
+            android:textSize="@dimen/size18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size16dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:layout_marginEnd="@dimen/size16dp"
+            android:drawablePadding="@dimen/size10dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/size16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="@dimen/size0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size16dp"
+        android:layout_marginEnd="@dimen/size16dp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

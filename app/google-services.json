@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "67368876660",
+    "firebase_url": "https://doancuoikycoffeeorder-default-rtdb.firebaseio.com",
+    "project_id": "doancuoikycoffeeorder",
+    "storage_bucket": "doancuoikycoffeeorder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67368876660:android:7a970cb02f059941a6ef21",
+        "android_client_info": {
+          "package_name": "com.example.doancuoikycoffeeorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67368876660-8nk2en8ngd4co98lj6p88rlq9svvo3ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doancuoikycoffeeorder",
+            "certificate_hash": "fadfc5eeeb233003b575f906d375eedb0b82e27e"
+          }
+        },
+        {
+          "client_id": "67368876660-pg8q04jga3g7ne5c6kouel1g66oai0jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsPxnCSqBt2AhmSFatIjF1JJbXCLCHU_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67368876660-pg8q04jga3g7ne5c6kouel1g66oai0jm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/powder_blue"
+    tools:context=".View.OrderOverView.OrderComplete">
+
+    <ImageView
+        android:id="@+id/imTick"
+        android:layout_width="@dimen/size80dp"
+        android:layout_height="@dimen/size80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size40dp"
+        app:srcCompat="@drawable/ic_check"
+        />
+
+    <TextView
+        android:id="@+id/tvCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size24dp"
+        android:text="@string/OrderComplete"
+        android:textSize="@dimen/size24sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imTick"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size20dp"
+        android:text="@string/WaitChef"
+        android:textSize="@dimen/size18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvCompleted"
+        />
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_back"
+        />
+
+</RelativeLayout>

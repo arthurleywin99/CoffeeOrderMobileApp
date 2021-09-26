@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/view2"
+        android:layout_width="@dimen/size80dp"
+        android:layout_height="@dimen/size80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/size8dp"
+        android:layout_marginTop="@dimen/size8dp"
+        android:layout_marginBottom="@dimen/size8dp"
+        android:elevation="@dimen/size12dp"
+        android:innerRadius="@dimen/size10dp"
+        android:shape="ring"
+        android:thicknessRatio="1.9"
+        app:cardCornerRadius="@dimen/size10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivDrink_ChefViewDetailsItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/c1"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size16dp"
+                android:text="@string/Name"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:textSize="@dimen/size16sp"
+                app:layout_constraintStart_toEndOf="@+id/view2"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/tvTitle_ChefViewDetailsItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size16dp"
+                android:text="Milk coffee"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:textSize="@dimen/size16sp"
+                app:layout_constraintStart_toEndOf="@+id/view2"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:text="@string/Quantity"
+                android:textSize="@dimen/size16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/view2"
+                app:layout_constraintTop_toBottomOf="@+id/a8_item_tvTitle"
+                />
+
+            <TextView
+                android:id="@+id/tvQtyOrder_ChefViewDetailsItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:text="@string/Quantity"
+                android:textSize="@dimen/size16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/view2"
+                app:layout_constraintTop_toBottomOf="@+id/a8_item_tvTitle"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

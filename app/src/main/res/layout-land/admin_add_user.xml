@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/powder_blue"
+    tools:context=".View.Admin_UsersConfig.AdminAddUser">
+
+    <LinearLayout
+        android:id="@+id/lnForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/size10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:text="@string/UserLogin"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/edUserID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:layout_marginEnd="@dimen/size8dp"
+                    android:background="@drawable/g_radius_text"
+                    android:paddingStart="@dimen/size5dp"
+                    tools:ignore="RtlSymmetry"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:text="@string/Password"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/edPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:layout_marginEnd="@dimen/size8dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/g_radius_text"
+                    android:paddingStart="@dimen/size5dp"
+                    tools:ignore="RtlSymmetry"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:text="@string/Permission"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <Spinner
+                    android:id="@+id/spPermission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:layout_marginEnd="@dimen/size8dp"
+                    android:background="@drawable/g_radius_text"
+                    android:textSize="@dimen/size16sp"
+                    android:layout_weight="1"
+                    tools:ignore="RtlSymmetry"
+                    android:gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:text="@string/Gender"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:layout_marginEnd="@dimen/size8dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/rdMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Male"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rdFeMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/size24dp"
+                        android:text="@string/Female"
+                        android:textStyle="bold"
+                        />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:text="@string/FullName"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/edFullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:layout_marginEnd="@dimen/size8dp"
+                    android:background="@drawable/g_radius_text"
+                    android:paddingStart="@dimen/size5dp"
+                    tools:ignore="RtlSymmetry"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:text="@string/Mail"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/edEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:layout_marginEnd="@dimen/size8dp"
+                    android:background="@drawable/g_radius_text"
+                    android:paddingStart="@dimen/size5dp"
+                    tools:ignore="RtlSymmetry"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:text="@string/DateOfBirth"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/edDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:layout_marginEnd="@dimen/size8dp"
+                    android:background="@drawable/g_radius_text"
+                    android:paddingStart="@dimen/size5dp"
+                    tools:ignore="RtlSymmetry"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:text="@string/Phone"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/edPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size8dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:layout_marginEnd="@dimen/size8dp"
+                    android:background="@drawable/g_radius_text"
+                    android:paddingStart="@dimen/size5dp"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    tools:ignore="RtlSymmetry"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:text="@string/Address"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/edAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginEnd="@dimen/size8dp"
+                android:ems="10"
+                android:background="@drawable/g_radius_text"
+                android:paddingStart="@dimen/size5dp"
+                tools:ignore="RtlSymmetry"
+                android:layout_weight="1"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/lnForm">
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size8dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:layout_marginEnd="@dimen/size8dp"
+            android:layout_marginBottom="@dimen/size8dp"
+            android:background="@drawable/g_radius_gb_button"
+            android:text="@string/Create"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size8dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:layout_marginEnd="@dimen/size8dp"
+            android:layout_marginBottom="@dimen/size8dp"
+            android:background="@drawable/g_radius_gb_button"
+            android:text="@string/Cancel"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/tomato"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

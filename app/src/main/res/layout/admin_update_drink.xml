@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".View.Admin_DrinksConfig.AdminUpdateDrink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lnForm"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/size80dp"
+            android:layout_height="@dimen/size80dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:src="@drawable/new_drink" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size16dp"
+            android:layout_marginBottom="@dimen/size8dp"
+            android:text="@string/UpdateDrink"
+            android:textColor="@color/red_50"
+            android:textSize="@dimen/size24sp"
+            android:fontFamily="@font/bangers"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/size10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:text="@string/DrinkID"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/edDrinkID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginEnd="@dimen/size8dp"
+                android:background="@drawable/g_radius_text"
+                android:enabled="false"
+                android:paddingStart="@dimen/size5dp"
+                tools:ignore="RtlSymmetry"
+                android:layout_weight="1"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:text="@string/DrinkType"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <Spinner
+                android:id="@+id/spDrinkName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginEnd="@dimen/size8dp"
+                android:background="@drawable/g_radius_text"
+                android:textSize="@dimen/size16sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                tools:ignore="RtlSymmetry"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:text="@string/DrinkLabel"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/edName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginEnd="@dimen/size8dp"
+                android:background="@drawable/g_radius_text"
+                android:paddingStart="@dimen/size5dp"
+                tools:ignore="RtlSymmetry"
+                android:layout_weight="1"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:text="@string/Price"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/edPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size8dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginEnd="@dimen/size8dp"
+                android:background="@drawable/g_radius_text"
+                android:paddingStart="@dimen/size5dp"
+                android:inputType="number"
+                tools:ignore="RtlSymmetry"
+                android:layout_weight="1"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/lnForm">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size8dp"
+            android:background="@drawable/g_radius_gb_button"
+            android:text="@string/Update"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size8dp"
+            android:background="@drawable/g_radius_gb_button"
+            android:text="@string/Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/red"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

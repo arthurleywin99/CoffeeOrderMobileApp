@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".View.OrderOverView.Invoice">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/size20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size16dp"
+            android:layout_marginEnd="@dimen/size16dp"
+            android:layout_marginBottom="@dimen/size10dp"
+            android:drawableStart="@drawable/ic_list"
+            android:drawablePadding="@dimen/size10dp"
+            android:text="@string/SalesBill"
+            android:textStyle="bold"
+            android:textSize="@dimen/size24sp"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvInvoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/tvTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginEnd="@dimen/size8dp"
+                android:padding="@dimen/size5dp"
+                android:text="@string/Total"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size20sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnPayNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size3dp"
+                android:background="@drawable/bg_radius_blue"
+                android:elevation="@dimen/size3dp"
+                android:padding="@dimen/size5dp"
+                android:text="@string/PrintBills"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size18sp"
+                android:textAllCaps="false"
+                android:translationZ="@dimen/size3dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

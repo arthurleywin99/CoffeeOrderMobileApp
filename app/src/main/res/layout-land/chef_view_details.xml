@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base"
+    android:orientation="vertical"
+    tools:context=".View.Chef.ChefViewDetails">
+
+    <LinearLayout
+        android:id="@+id/lnText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/bg_radius"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTableName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="@dimen/size8dp"
+            android:layout_marginEnd="@dimen/size8dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size24sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvDrink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/size10dp"
+        android:layout_marginBottom="@dimen/size10dp"
+        android:layout_below="@+id/lnText"
+        android:layout_weight="0.4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="@dimen/size5dp"
+            android:background="@drawable/bg_radius_red"
+            android:elevation="@dimen/size3dp"
+            android:padding="@dimen/size5dp"
+            android:text="@string/Exit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size18sp"
+            android:textStyle="bold"
+            android:translationZ="@dimen/size3dp"
+            />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="@dimen/size5dp"
+            android:background="@drawable/bg_radius_blue"
+            android:elevation="@dimen/size3dp"
+            android:padding="@dimen/size5dp"
+            android:text="@string/Finish"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size18sp"
+            android:translationZ="@dimen/size3dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
